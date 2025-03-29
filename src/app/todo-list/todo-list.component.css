@@ -1,0 +1,15 @@
+ul {
+    transform:translate(170px,10px);
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    max-width: 200px;
+    background:#d3d2d2;
+    padding:10px;
+    margin: 5px 0;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}

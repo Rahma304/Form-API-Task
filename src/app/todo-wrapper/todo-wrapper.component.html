@@ -1,0 +1,9 @@
+<div class ="all">
+<div class="doing">
+    <h2>To Do list</h2>
+
+</div>
+<app-todo-form (taskadded)="addTask($event)"></app-todo-form>
+<app-todo-list [tasks]="tasks"></app-todo-list>
+
+</div>
